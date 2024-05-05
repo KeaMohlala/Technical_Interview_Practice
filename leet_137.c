@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * deleteNode - function that deletes a node in a singly linked list without
+ * access to the head of the list
+ * @node: pointer to node to delete
+*/
+
 void deleteNode(struct ListNode* node) 
 {
     struct ListNode *ptr;
